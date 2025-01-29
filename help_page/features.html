@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Additional features
+    </title>
+    <link rel="icon" type="image/x-icon" href="https://i.stack.imgur.com/fvlop.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header {
+            font-size: 50px;
+            padding-top: 50px;
+            text-align: center;
+
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.rawpixel.com/image_1100/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjg4MC1rdWwtMDktYS5qcGc.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-right: 25px;
+            font-size: 20px;
+            padding-top: 25px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            margin: 0 10px;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #ugh {
+            padding-top: 10px;
+            padding-bottom: 50px;
+            padding-left: 20px;
+            padding-right: 50px;
+            color: black; 
+            position: relative; 
+            z-index: 1; 
+            text-align: left;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: left;
+            margin-top: 0;
+        }
+        #frame-image {
+            max-width: 100%;
+            display: block;
+            margin: 20px auto; /* Adjust margin as needed */
+        }
+        #overlayRectangle {
+            position: absolute;
+            top: 120%; /* Adjust top position as needed */
+            left: 20%; /* Adjust left position as needed */
+            width: 60%; /* Adjust width as needed */
+            height: auto; /* Adjust height as needed */
+            border: 2px solid black; /* Border color and thickness */
+            border-radius: 20px; /* Cornered borders */
+            background-color: rgba(192, 192, 192, 0.9); /* Gray color with opacity */
+            z-index: 0; /* Set z-index higher than the background */
+            padding: 20px; /* Add padding to create space */
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+
+    </style>
+</head>
+
+<header>
+    Addditional features
+</header>
+
+<body>
+    <div id="overlayRectangle">
+        <div id="ugh">
+
+            <h1>Custom backdrop</h1>
+            <p> To edit the backdrop, you need to click on the setting icon in the top right of the screen. Then you can click on either the cavas "colour button" or the "browse images" button. The colour button will open up a colour picker which will let you select a colour to set as a backdrop. The browse button will open up a file explorer and will let you upload your own pictures onto the backdrop</p>
+            <img id="frame-image" src="https://i.postimg.cc/bwHVhw9Q/image.png">
+
+            <h1>Saving/Loading a graph</h1>
+            <p>Firstly, you need to click on the settings icon in the top right of the screen. To save a graph, simply press the save button the application will open up a file explorer. Then just select a name for the file and save it to your desired directory, this will save the current graph loaded to that txt document.<br> To load a graph, press the button and it will bring up a file explorer where you can select a txt document to load that graph back to the canvas</p>
+            <img id="frame-image" src="https://i.postimg.cc/3JB3xm7R/image-2024-03-12-092649213.png">
+
+            <h1>Running shortest path algorithm</h1>
+            <p>To select a shortest path algorith, click on the settings button and select either the "djykstra" button or the "A*" button. To find out more information about these algorithms <a href="url">watch this video!</a></p>
+            <img id="frame-image" src="https://i.postimg.cc/g2QbBDmx/image.png">
+        <p>Once you've selected your algorithm, press the run button in the top left of the screen and the graph currently in your canvas will display the shortest path. However, this only works if there is a start/destination node on the canvas, otherwise an error message will show. Additionally, the starting node needs to be connected to the end node in some way.</p>
+            <img id="frame-image" src="https://i.postimg.cc/GpG4zK6Q/image.png">
+            <p>When you do this, the shortest path will be highlighted in red and the application will showcase stats in the bottom right of the canvas.</p>
+        </div>
+        <ul>
+            <li><a href="./help.html">Back to the help page</a></li>
+            <li><a href="./create.html">How to create a graph</a></li>
+            <li><a href="./edit.html">How to edit a graph</a></li>
+        </ul>
+    </div> <!-- Gray rectangle overlay -->
+    <div>
+        <br>
+    </div>
+</body>
+</html>

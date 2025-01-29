@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        How to create a graph
+    </title>
+    <link rel="icon" type="image/x-icon" href="https://i.stack.imgur.com/fvlop.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header {
+            font-size: 50px;
+            padding-top: 50px;
+            text-align: center;
+
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.rawpixel.com/image_1100/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjg4MC1rdWwtMDktYS5qcGc.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-right: 25px;
+            font-size: 20px;
+            padding-top: 25px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            margin: 0 10px;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #ugh {
+            padding-top: 10px;
+            padding-bottom: 50px;
+            padding-left: 20px;
+            padding-right: 50px;
+            color: black; 
+            position: relative; 
+            z-index: 1; 
+            text-align: left;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: left;
+            margin-top: 0;
+        }
+        #frame-image {
+            max-width: 100%;
+            display: block;
+            margin: 20px auto; /* Adjust margin as needed */
+        }
+        #overlayRectangle {
+            position: absolute;
+            top: 120%; /* Adjust top position as needed */
+            left: 20%; /* Adjust left position as needed */
+            width: 60%; /* Adjust width as needed */
+            height: auto; /* Adjust height as needed */
+            border: 2px solid black; /* Border color and thickness */
+            border-radius: 20px; /* Cornered borders */
+            background-color: rgba(192, 192, 192, 0.9); /* Gray color with opacity */
+            z-index: 0; /* Set z-index higher than the background */
+            padding: 20px; /* Add padding to create space */
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+
+    </style>
+</head>
+
+<header>
+    How to create a graph
+</header>
+
+<body>
+    <div id="overlayRectangle">
+        <div id="ugh">
+
+            <h1>Creating nodes</h1>
+            <p>You can create a node by pressing the "create". Then click inside the white and nodes will spawn on your mouse pointer</p>
+            <img id="frame-image" src="https://i.postimg.cc/GtHSDK7K/image-2024-03-11-235739860.png">
+
+            <h1>Moving nodes</h1>
+            <p>Simply press the move button, then drag and drop!</p>
+            <img id="frame-image" src="https://i.postimg.cc/Cxg5cQGR/image.png">
+
+            <h1>Deleting nodes</h1>
+            <p>Once you've pressed the delete button, any node/edge that has been clicked will be deleted. Deleting a node also deletes any connected edges </p>
+            <img id="frame-image" src="https://i.postimg.cc/VsgKfx68/image-2024-03-12-000428700.png">
+
+            <h1>Linking nodes/creating edges</h1>
+            <p>When you press this button, hold click on a node and drag the mouse pointer to the node you want to link (both nodes should be highlighted). If you are using an old version, you will need to hold shift and select the 2 nodes you want to link. </p>
+            <img id="frame-image" src="https://i.postimg.cc/VvXgchdJ/image.png">
+
+            <h1>Creating a random graph</h1>
+            <p>If you press on the settings icon (the cog wheel) in the top right hand corner of the screen, a menu will pop up. Then scroll down to the "randomise button", once you have selected a number of nodes with the slider, the application will create a random graph with the amount of nodes selected. The program will also edit the weights and names of some of the nodes for you. </p>
+            <img id="frame-image" src="https://i.postimg.cc/J0Tntryv/image.png">
+            <p> Below is an example of a randomised graph</p>
+            <img id="frame-image" src="https://i.postimg.cc/fLYs6wjm/image.png">
+
+            <h1>Deleting a graph</h1>
+            <p>If you've got a big graph that you want to delete all at once, you can navigate to the setting menu (by pressing the cog wheel in the top right corner). Then you can press the big red "delete canvas" button at the bottom of the menu. Pressing this will reset the canvas.</p>
+            <img id="frame-image" src="https://i.postimg.cc/YSR292m7/image.png">
+        </div>
+        <ul>
+            <li><a href="./help.html">Back to the help page</a></li>
+            <li><a href="./edit.html">How to edit a graph</a></li>
+            <li><a href="./index.html">Additional features</a></li>
+        </ul>
+    </div> <!-- Gray rectangle overlay -->
+    <div>
+        <br>
+    </div>
+</body>
+
+</html>

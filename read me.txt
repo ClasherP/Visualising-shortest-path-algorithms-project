@@ -1,0 +1,14 @@
+python instilation: https://www.youtube.com/watch?v=YYXdXT2l-Gg
+
+pip instilation: https://www.youtube.com/watch?v=fJKdIf11GcI
+
+
+library installation commands
+
+pip install pygame
+pip install pillow
+pip install customtkinter
+pip install tk
+
+pip install pyinstaller (if you want to compile)
+
