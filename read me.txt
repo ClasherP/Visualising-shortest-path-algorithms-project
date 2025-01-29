@@ -12,3 +12,8 @@ pip install tk
 
 pip install pyinstaller (if you want to compile)
 
+This scored 97% in the a level CS course
+
+Made by Ollie Tucker
+
+so start, run the file "final build final"
